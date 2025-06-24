@@ -136,6 +136,3 @@ If you find Echolish useful, consider:
 🔁 Sharing it with others
 
 💬 Providing feedback or suggestions
-
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
