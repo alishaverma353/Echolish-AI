@@ -53,7 +53,7 @@ ollama run llama3
 python main.py
 
 
-##📦 Requirements
+## 📦 Requirements
 Python 3.8+
 
 A microphone and speaker
@@ -64,7 +64,7 @@ Optional GPU for faster inference
 
 Internet connection (only for optional features)
 
-##🔌 Supported Skills (Examples)
+## 🔌 Supported Skills (Examples)
 Feature	Example Command
 Weather	"What's the weather in Berlin today?"
 Reminders	"Remind me to stretch at 4 PM."
@@ -73,7 +73,7 @@ System Tools	"Open Chrome" / "Mute the system volume"
 Custom	Add your own in the skills/ directory
 
 
-##🧩 Add Your Own Skills
+## 🧩 Add Your Own Skills
 Creating new skills is easy:
 
 Create a new file in the skills/ directory, e.g., jokes.py
@@ -88,7 +88,7 @@ Each skill can respond to custom phrases, use APIs, run commands, or trigger eve
 
 
 
-##🛡️ Privacy First
+## 🛡️ Privacy First
 Echolish is built with privacy in mind:
 
 ✅ No data is sent to the cloud unless explicitly configured
@@ -100,7 +100,7 @@ Echolish is built with privacy in mind:
 ✅ Configurable permissions and logging
 
 
-##🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome!
 
 Fork this repo
@@ -116,13 +116,13 @@ Create a Pull Request
 Check CONTRIBUTING.md for coding guidelines and tips.
 
 
-##📬 Contact
+## 📬 Contact
 GitHub: @alishaverma353
 
 Email: vermaalisha780@gmail.com
 
 
-##🌟 Show Your Support
+## 🌟 Show Your Support
 If you find Echolish useful, consider:
 
 ⭐ Starring the repository
