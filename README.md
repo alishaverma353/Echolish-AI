@@ -6,14 +6,14 @@
 
 ## 🚀 Features
 
-- 🗣️ Speech-to-Text using Whisper, Vosk, or other engines
-- 🤖 Natural Language Understanding powered by **LLaMA 3 via Ollama**
-- 🔊 Text-to-Speech with realistic voice synthesis
-- 🧩 Modular Skill System for custom commands and actions
-- 🕵️‍♂️ 100% Privacy-First — offline-capable architecture
-- ⚙️ Extensible Plugin Support for developers
-- 🧠 Contextual Memory (optional)
-- 💻 Cross-platform: Linux, macOS, and Windows
+- 🗣️ Speech-to-Text using Whisper, Vosk, or other engines  
+- 🤖 Natural Language Understanding powered by **LLaMA 3 via Ollama**  
+- 🔊 Text-to-Speech with realistic voice synthesis  
+- 🧩 Modular Skill System for custom commands and actions  
+- 🕵️‍♂️ 100% Privacy-First — offline-capable architecture  
+- ⚙️ Extensible Plugin Support for developers  
+- 🧠 Contextual Memory (optional)  
+- 💻 Cross-platform: Linux, macOS, and Windows  
 
 ---
 
@@ -23,51 +23,54 @@ Echolish uses the **LLaMA 3 large language model**, running locally via [**Ollam
 
 ### Why LLaMA 3 + Ollama?
 
-- ✅ Fully local, no cloud dependency
-- ✅ Fast inference with GPU acceleration
-- ✅ State-of-the-art natural language reasoning
-- ✅ Easy model management using Ollama CLI
+- ✅ Fully local, no cloud dependency  
+- ✅ Fast inference with GPU acceleration  
+- ✅ State-of-the-art natural language reasoning  
+- ✅ Easy model management using Ollama CLI  
 
 Make sure Ollama is installed and running with LLaMA 3:
 ```bash
 ollama run llama3
 
-🛠 Installation
-Step 1: Clone the repository
-Step 2: (Optional) Create a virtual environment
+
+## 🛠 Installation
+
+Follow these steps to set up Echolish on your system:
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/alishaverma353/echolish.git
+cd echolish
+
+### 2. (Optional) Create a Virtual Environment
+
+### 3. Install Dependencies
+
+### 4. Ensure Ollama Is Running with LLaMA 3
+Make sure you have Ollama installed. Then run:
+
 bash
-Copy
-Edit
-python -m venv venv
-source venv/bin/activate  # For Windows: venv\Scripts\activate
-Step 3: Install the dependencies
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Step 4: Ensure Ollama is running LLaMA 3
-bash
-Copy
-Edit
+Copy code
 ollama run llama3
-Step 5: Run Echolish
+
+### 5. Start Echolish
 bash
-Copy
-Edit
+Copy code
 python main.py
-📦 Requirements
+
+
+##📦 Requirements
 Python 3.8+
 
 A microphone and speaker
 
-Ollama installed with llama3 model pulled
+Ollama installed with the llama3 model
 
 Optional GPU for faster inference
 
 Internet connection (only for optional features)
 
-
-🔌 Supported Skills (Examples)
+##🔌 Supported Skills (Examples)
 Feature	Example Command
 Weather	"What's the weather in Berlin today?"
 Reminders	"Remind me to stretch at 4 PM."
@@ -76,10 +79,10 @@ System Tools	"Open Chrome" / "Mute the system volume"
 Custom	Add your own in the skills/ directory
 
 
-🧩 Add Your Own Skills
+##🧩 Add Your Own Skills
 Creating new skills is easy:
 
-Create a new file in the skills/ directory, e.g. jokes.py
+Create a new file in the skills/ directory, e.g., jokes.py
 
 Define a function or class to handle specific intents
 
@@ -89,7 +92,9 @@ Test your skill by speaking the trigger phrase
 
 Each skill can respond to custom phrases, use APIs, run commands, or trigger events.
 
-🛡 Privacy First
+
+
+##🛡️ Privacy First
 Echolish is built with privacy in mind:
 
 ✅ No data is sent to the cloud unless explicitly configured
@@ -100,7 +105,8 @@ Echolish is built with privacy in mind:
 
 ✅ Configurable permissions and logging
 
-🤝 Contributing
+
+##🤝 Contributing
 Contributions are welcome!
 
 Fork this repo
@@ -109,17 +115,20 @@ Create a new branch (feature/my-feature)
 
 Commit your changes
 
-Push to your fork and create a Pull Request
+Push to your fork
+
+Create a Pull Request
 
 Check CONTRIBUTING.md for coding guidelines and tips.
 
 
-📬 Contact
+##📬 Contact
 GitHub: @alishaverma353
 
 Email: vermaalisha780@gmail.com
 
-🌟 Show Your Support
+
+##🌟 Show Your Support
 If you find Echolish useful, consider:
 
 ⭐ Starring the repository
@@ -128,3 +137,5 @@ If you find Echolish useful, consider:
 
 💬 Providing feedback or suggestions
 
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
