@@ -29,7 +29,7 @@ Echolish uses the **LLaMA 3 large language model**, running locally via [**Ollam
 - ✅ Easy model management using Ollama CLI  
 
 Make sure Ollama is installed and running with LLaMA 3:
-```bash
+
 ollama run llama3
 
 
@@ -38,9 +38,6 @@ ollama run llama3
 Follow these steps to set up Echolish on your system:
 
 ### 1. Clone the Repository
-```bash
-git clone https://github.com/alishaverma353/echolish.git
-cd echolish
 
 ### 2. (Optional) Create a Virtual Environment
 
@@ -49,13 +46,10 @@ cd echolish
 ### 4. Ensure Ollama Is Running with LLaMA 3
 Make sure you have Ollama installed. Then run:
 
-bash
-Copy code
 ollama run llama3
 
 ### 5. Start Echolish
-bash
-Copy code
+
 python main.py
 
 
